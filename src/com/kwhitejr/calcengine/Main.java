@@ -5,6 +5,9 @@ public class Main {
     public static void main(String[] args) {
 
         String[] statements = {
+                "add 1.0",
+                "add xx 25.0",
+                "addXX 0.0 0.0",
                 "divide 100.0 50.0",
                 "add 100.0 50.0",
                 "multiply 100.0 50.0",
