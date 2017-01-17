@@ -10,6 +10,12 @@ public class Main {
                 "multiply 100.0 50.0",
                 "subtract 100.0 50.0",
         };
+
+        CalculateHelper helper = new CalculateHelper();
+        for (String statement:statements) {
+            helper.process(statement);
+            System.out.println(helper);
+        }
     }
 
     static void useMathEquation() {
