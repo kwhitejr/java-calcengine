@@ -19,14 +19,24 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kwhitejr/calcengine/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="266">
+              <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Multiplier.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MathCommand.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/kwhitejr/calcengine/MathCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Multiplier.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kwhitejr/calcengine/Multiplier.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
@@ -107,6 +117,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -126,6 +137,7 @@
         <option value="$PROJECT_DIR$/src/com/kwhitejr/calcengine/Multiplier.java" />
         <option value="$PROJECT_DIR$/src/com/kwhitejr/calcengine/Divider.java" />
         <option value="$PROJECT_DIR$/src/com/kwhitejr/calcengine/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/kwhitejr/calcengine/MathCommand.java" />
       </list>
     </option>
   </component>
@@ -511,14 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kwhitejr/calcengine/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kwhitejr/calcengine/Multiplier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -527,6 +531,22 @@
             <element signature="e#206#207#0" expanded="true" />
             <element signature="e#248#249#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kwhitejr/calcengine/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kwhitejr/calcengine/MathCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>

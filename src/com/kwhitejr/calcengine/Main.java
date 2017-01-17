@@ -3,6 +3,18 @@ package com.kwhitejr.calcengine;
 public class Main {
 
     public static void main(String[] args) {
+
+        String[] statements = {
+                "divide 100.0 50.0",
+                "add 100.0 50.0",
+                "multiply 100.0 50.0",
+                "subtract 100.0 50.0",
+        };
+    }
+
+    static void useMathEquation() {
+
+        // Using MathEquation(s)
 	    MathEquation[] equations = new MathEquation[4];
 	    equations[0] = new MathEquation('d', 100.0d, 50.0d);
 	    equations[1] = new MathEquation('a', 25.0d, 92.0d);
