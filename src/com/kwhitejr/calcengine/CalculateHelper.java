@@ -14,13 +14,25 @@ public class CalculateHelper {
     double dRightVal;
     double dResult;
 
-    public void process(String statement) {
+    public void process(String statement) throws InvalidStatementException {
         String[] parts = statement.split(" ");
+        if (parts.length != 3) {
+            throw new InvalidStatementException("Incorrect number of fields.", statement);
+        }
+
         String commandString = parts[0];
-        dLeftVal = Double.parseDouble(parts[1]);
-        dRightVal = Double.parseDouble(parts[2]);
+
+        try {
+            dLeftVal = Double.parseDouble(parts[1]);
+            dRightVal = Double.parseDouble(parts[2]);
+        } catch (NumberFormatException e) {
+            throw new InvalidStatementException("Non-numeric data.", statement, e);
+        }
 
         setCommandFromString(commandString);
+        if (command == null) {
+            throw new InvalidStatementException("Invalid command (not enumerated).", statement);
+        }
 
         CalculateBase calculator = null;
 
