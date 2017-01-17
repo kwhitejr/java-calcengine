@@ -29,7 +29,9 @@ public class Main {
 
         CalculateBase[] calculators = {
                 new Adder(25.0d, 92.0d),
-                new Adder(2.0d, 9.0d),
+                new Subtracter(2.0d, 9.0d),
+                new Multiplier(2.0d, 9.0d),
+                new Divider(2.0d, 9.0d),
         };
 
         for(CalculateBase calculator:calculators) {
@@ -40,12 +42,4 @@ public class Main {
 
     }
 
-//    public static MathEquation create(double dLeftVal, double dRightVal, char cOpCode) {
-//        MathEquation equation = new MathEquation();
-//        equation.setdLeftVal(dLeftVal);
-//        equation.setdRightVal(dRightVal);
-//        equation.setcOpCode(cOpCode);
-//
-//        return equation;
-//    }
 }
