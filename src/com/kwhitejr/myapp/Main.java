@@ -1,4 +1,13 @@
-package com.kwhitejr.calcengine;
+package com.kwhitejr.myapp;
+
+import com.kwhitejr.calcengine.CalculateBase;
+import com.kwhitejr.calcengine.CalculateHelper;
+import com.kwhitejr.calcengine.InvalidStatementException;
+import com.kwhitejr.calcengine.MathEquation;
+import com.kwhitejr.calcengine.Adder;
+import com.kwhitejr.calcengine.Subtracter;
+import com.kwhitejr.calcengine.Multiplier;
+import com.kwhitejr.calcengine.Divider;
 
 public class Main {
 
