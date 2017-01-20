@@ -2,9 +2,12 @@ package com.kwhitejr.myapp;
 
 import com.kwhitejr.calcengine.CalculateBase;
 import com.kwhitejr.calcengine.CalculateHelper;
+import com.kwhitejr.calcengine.DynamicHelper;
 import com.kwhitejr.calcengine.InvalidStatementException;
 import com.kwhitejr.calcengine.MathEquation;
 import com.kwhitejr.calcengine.Adder;
+import com.kwhitejr.calcengine.MathProcessing;
+import com.kwhitejr.calcengine.PowerOf;
 import com.kwhitejr.calcengine.Subtracter;
 import com.kwhitejr.calcengine.Multiplier;
 import com.kwhitejr.calcengine.Divider;
@@ -13,6 +16,23 @@ public class Main {
 
     public static void main(String[] args) {
 
+        String[] statements = {
+                "add 25.0 10.0",
+                "power 5.0 2.0",
+        };
+
+        DynamicHelper helper = new DynamicHelper(new MathProcessing[] {
+                new Adder(),
+                new PowerOf(),
+        });
+
+        for (String statement:statements) {
+            String output = helper.process(statement);
+            System.out.println(output);
+        }
+    }
+
+    static void useCalculateHelper() {
         String[] statements = {
                 "add 1.0",
                 "add xx 25.0",
